@@ -39,7 +39,7 @@ public class Validation {
                 return true;
             }
             if (result.equalsIgnoreCase("N")) {
-                return true;
+                return false;
             }
             System.err.println("Syntax error, try again");
             System.out.println("Enter again");
